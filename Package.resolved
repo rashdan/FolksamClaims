@@ -12,10 +12,10 @@
       },
       {
         "package": "FolksamCommon",
-        "repositoryURL": "https://rashdan@bitbucket.org/folksamfuturelab/folksamcommon.git",
+        "repositoryURL": "https://github.com/rashdan/FolksamCommon.git",
         "state": {
           "branch": null,
-          "revision": "d3dd8a7962d075040a5f7a95a638a176ae0d0183",
+          "revision": "3d2ea5908f31b1103abeccd5661da45f979a16f2",
           "version": "0.1.1"
         }
       }

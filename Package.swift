@@ -21,8 +21,10 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(name: "FolksamCommon",
-                     url: "https://rashdan@bitbucket.org/folksamfuturelab/folksamcommon.git", .upToNextMajor(from: "0.1.1")),
+                     url: "https://github.com/rashdan/FolksamCommon.git", .upToNextMajor(from: "0.1.1")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.5.0"))
+        
+        //https://rashdan@bitbucket.org/folksamfuturelab/folksamcommon.git
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
