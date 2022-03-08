@@ -21,7 +21,7 @@ public class ClaimsViewController: UIViewController {
     }
 
     public static func make(apiService: ClaimsServiceProtocol) -> UINavigationController {
-        let storyboard = UIStoryboard(name: "ClaimsTab", bundle: Bundle(for: Self.self))
+        let storyboard = UIStoryboard(name: "ClaimsTab", bundle: Bundle.module)
         let (navigationController, viewController) = UIStoryboard.instantiateNavigationController(
             from: storyboard,
             childOfType: self
