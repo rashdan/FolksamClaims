@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ClaimsTableViewController: UITableViewController {
     private var claimsData: [Claim] = []
@@ -20,7 +21,7 @@ class ClaimsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "ClaimTableCell", bundle: Bundle(for: Self.self)), forCellReuseIdentifier: "ClaimCell")
+        tableView.register(UINib(nibName: "ClaimTableCell", bundle: Bundle.module), forCellReuseIdentifier: "ClaimCell")
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
